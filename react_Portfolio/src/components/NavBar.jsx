@@ -1,7 +1,8 @@
 import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+   
+    <nav className="navbar navbar-expand-lg navbar-light p-2 ps-5 bg-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           Adam Riley Portfolo
@@ -17,7 +18,7 @@ function NavBar() {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
@@ -31,7 +32,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/projects-gallery" end>
-                Projects Gallery
+                Projects 
               </NavLink>
               
             </li>
@@ -46,6 +47,7 @@ function NavBar() {
         </div>
       </div>
     </nav>
+
   );
 }
 export default NavBar;

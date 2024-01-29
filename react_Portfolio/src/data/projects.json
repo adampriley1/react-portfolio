@@ -1,20 +1,40 @@
 [
     {
         "id": 1,
-        "title": "My awesome project",
-        "description": "This is my awesome project that I have done in just 1 hour",
+        "title": "Kids Pocket Money App",
+        "description": "An interactive web application designed to manage and track chores and pocket money for kids. This group project created using HTML, CSS, Javascript, Bootstrap, jQuery, Day.js and more",
         "image": "/img/project-1.png"
     },
     {
         "id": 2,
-        "title": "My awesome project 2",
-        "description": "This is my awesome project that I have done in just 2 hours",
+        "title": "Weather Dashboard ",
+        "description": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS for the weather in a city typed in. Use of weather API",
         "image": "/img/project-2.png"
     },
     {
         "id": 3,
-        "title": "My awesome project 3",
-        "description": "This is my awesome project that I have done in just 3 hours",
+        "title": "Password Generator",
+        "description": "Using Javascript to create a password for a user based on specifications they set",
+        "image": "/img/project-3.png"
+    },
+    {
+        "id": 4,
+        "title": "Quiz Challenge",
+        "description": "Using Javascript to create to create a coding multiple choice quiz",
+        "image": "/img/project-3.png"
+    },
+    
+    {
+        "id": 5,
+        "title": "Team Profile Generator",
+        "description": " Built a Team Profile generator using node, Inquirer and testing with Jest",
+        "image": "/assets/img/teamGenerator.png"
+      
+    },
+    {
+        "id": 6,
+        "title": "Documentary Portraits",
+        "description": "Built a photography website using Wordpress",
         "image": "/img/project-3.png"
     }
 ]

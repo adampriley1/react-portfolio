@@ -1,0 +1,27 @@
+/*////////// Form css ////////////*/
+
+.form {
+   
+    width: 500px;
+    margin: 50px auto 0;
+    background-color: #fcfcfc;
+    padding: 20px 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+   
+  }
+  
+  .form input {
+    /* display: block; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .form textarea {
+
+    /* display: block; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  

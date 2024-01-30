@@ -14,8 +14,8 @@
         "title": "Weather Dashboard ",
         "description": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS for the weather in a city typed in. Use of weather API",
         "image": "/img/project-2.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "github": "<a href='https://github.com/adampriley1/weather-dashboard' target='_blank' rel='noopener noreferrer'>Github Link</a>",
+        "link": "<a href='https://adampriley1.github.io/weather-dashboard/' target='_blank' rel='noopener noreferrer'>Deployed Link</a>"
     },
     {
         "id": 3,

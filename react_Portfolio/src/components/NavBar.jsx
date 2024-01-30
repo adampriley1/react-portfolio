@@ -1,11 +1,12 @@
+import React from 'react';
 import { NavLink } from "react-router-dom";
+
 function NavBar() {
   return (
-   
-    <nav className="navbar navbar-expand-lg navbar-light p-2 ps-5 bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light p-2 ps-5 bg-light ">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Adam Riley Portfolo
+          {/* You can keep this empty or add a logo/image here */}
         </a>
         <button
           className="navbar-toggler"
@@ -32,22 +33,19 @@ function NavBar() {
             </li>
             <li className="nav-item ms-auto">
               <NavLink className="nav-link" to="/projects-gallery" end>
-                Projects 
+                Projects
               </NavLink>
-              
             </li>
-
             <li className="nav-item ms-auto">
               <NavLink className="nav-link" to="/contact" end>
                 Contact
               </NavLink>
-              
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
   );
 }
+
 export default NavBar;

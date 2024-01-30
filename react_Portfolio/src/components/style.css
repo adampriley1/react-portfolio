@@ -1,4 +1,17 @@
-/*////////// Form css ////////////*/
+/* button */
+.button {
+display: inline-block;
+cursor: pointer;
+border-radius: 3px;
+padding: 2px 16px;
+height: 40px;
+border: none;
+color: #fff;
+background-color: #cf9b25;
+transition: background-color .17s ease,color .17s ease;
+}
+
+/*////////// Form  ////////////*/
 
 .form {
    
@@ -23,5 +36,13 @@
     margin-top: 5px;
     margin-bottom: 5px;
     width: 100%;
+  }
+
+  /* GalleryPage */
+  .projectGalleryHeader {
+
+    background-color:#cf9b25;
+    color: azure;
+    width: 100% 
   }
   

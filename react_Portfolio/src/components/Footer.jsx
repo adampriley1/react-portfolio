@@ -2,7 +2,7 @@ function Footer() {
   return (
   <div>
     <footer className="container" id="contact-me">
-      <h3 className="text-center pt-5">Contact Me</h3>
+      <h3 className="text-center pt-5">Connect</h3>
         <div className="d-flex justify-content-center pb-5">
         <a
           className="icon m-4 p-2"

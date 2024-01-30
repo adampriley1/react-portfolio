@@ -1,4 +1,4 @@
-// import '../components/style.css'>
+import Headshot from "../assets/img/Adam-riley_headshot.png";
 
 function Home() {
     // Body
@@ -38,16 +38,19 @@ function Home() {
                         An experienced and adaptable digital forensic investigator with a history of leadership and
                         excellent interpersonal skills - motivates and encourages, developing strong relationships with
                         clients and colleagues at all levels.</p>
+
+                        <button className ="button mt-4" onClick={() => window.open("https://docs.google.com/document/d/1VDPjt68y1Pw7hg7hG1ZhRyGwjjxE1VeWIQTScLIAcss/edit?usp=sharing", "_blank")} download="myFile">Download CV</button>
+
+
+                        
                 </div>
             </div>
 
+
             <div className="col-lg-3 col-m-3 col-xs-2">
                 <div className="mb-5 mx-4 mb-lg-0">
-                <img
-          src='../assets/Adam-riley_headshot.png'
-          className='img-fluid rounded-circle mb-3'
-          alt='photo of Adam Riley'
-        />
+                <img className="img-fluid rounded-circle" src={Headshot} alt="Adam Riley Photo" />
+
                 
                 </div>
             </div>
@@ -58,5 +61,9 @@ function Home() {
 
 }
 
+
+       
+
 export default Home;
 
+// className='img-fluid rounded-circle mb-3'

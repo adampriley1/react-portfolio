@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import ProjectsGallery from './pages/ProjectsGallery';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Project from './components/Project'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/projects-gallery" element={<ProjectsGallery />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/projects-gallery/*" element={<Project />} />
   </Routes>
   <Footer />
 </Router>;

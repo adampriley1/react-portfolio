@@ -4,51 +4,51 @@
         "id": 1,
         "title": "Kids Pocket Money App",
         "description": "An interactive web application designed to manage and track chores and pocket money for kids. This group project created using HTML, CSS, Javascript, Bootstrap, jQuery, Day.js and more",
-        "image": "/img/project-1.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "image": "/kidsPocketMoney.png",
+        "github": "https://github.com/group14-aaa/kids-pocket-money-app",
+        "link": "https://group14-aaa.github.io/kids-pocket-money-app/"
         
     },
     {
         "id": 2,
         "title": "Weather Dashboard ",
         "description": "A weather dashboard that runs in the browser and features dynamically updated HTML and CSS for the weather in a city typed in. Use of weather API",
-        "image": "/img/project-2.png",
-        "github": "<a href='https://github.com/adampriley1/weather-dashboard' target='_blank' rel='noopener noreferrer'>Github Link</a>",
-        "link": "<a href='https://adampriley1.github.io/weather-dashboard/' target='_blank' rel='noopener noreferrer'>Deployed Link</a>"
+        "image": "/weather.png",
+        "github": "https://github.com/adampriley1/weather-dashboard",
+        "link": "https://adampriley1.github.io/weather-dashboard/"
     },
     {
         "id": 3,
         "title": "Password Generator",
         "description": "Using Javascript to create a password for a user based on specifications they set",
-        "image": "/img/project-3.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "image": "/passwordGenerator.png",
+        "github": "https://github.com/adampriley1/Password-generator",
+        "link": "https://adampriley1.github.io/Password-generator/"
     },
     {
         "id": 4,
         "title": "Quiz Challenge",
         "description": "Using Javascript to create to create a coding multiple choice quiz",
-        "image": "/img/project-3.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "image": "/quizChallenge.png",
+        "github": "https://github.com/adampriley1/quiz-challenge-",
+        "link": "https://adampriley1.github.io/quiz-challenge-/"
     },
     
     {
         "id": 5,
         "title": "Team Profile Generator",
         "description": " Built a Team Profile generator using node, Inquirer and testing with Jest",
-        "image": "/assets/img/teamGenerator.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "image": "/teamGenerator.png",
+        "github": "https://github.com/adampriley1/team_profile_generator",
+        "link": "https://adampriley1.github.io/team_profile_generator/"
       
     },
     {
         "id": 6,
-        "title": "Documentary Portraits",
-        "description": "Built a photography website using Wordpress",
-        "image": "/img/project-3.png",
-        "github": "add a link to project github here",
-        "link": "add link to deployed project here"
+        "title": "Planner App",
+        "description": "A simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+        "image": "/plannerApp.png",
+        "github": "https://github.com/adampriley1/plannerApp/tree/main",
+        "link": "https://adampriley1.github.io/plannerApp/"
     }
 ]

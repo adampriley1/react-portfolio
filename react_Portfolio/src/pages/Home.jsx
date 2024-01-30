@@ -39,7 +39,7 @@ function Home() {
                         excellent interpersonal skills - motivates and encourages, developing strong relationships with
                         clients and colleagues at all levels.</p>
 
-                        <button className ="button mt-4" onClick={() => window.open("https://docs.google.com/document/d/1VDPjt68y1Pw7hg7hG1ZhRyGwjjxE1VeWIQTScLIAcss/edit?usp=sharing", "_blank")} download="myFile">Download CV</button>
+                        <button className ="button-style mt-4" onClick={() => window.open("https://docs.google.com/document/d/1VDPjt68y1Pw7hg7hG1ZhRyGwjjxE1VeWIQTScLIAcss/edit?usp=sharing", "_blank")} download="myFile">Download CV</button>
 
 
                         

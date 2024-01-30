@@ -1,6 +1,7 @@
 /* button */
-.button {
-display: inline-block;
+.button-style {
+display: inline-flex;
+align-items: center;
 cursor: pointer;
 border-radius: 3px;
 padding: 2px 16px;
@@ -9,6 +10,11 @@ border: none;
 color: #fff;
 background-color: #cf9b25;
 transition: background-color .17s ease,color .17s ease;
+}
+
+.button-style:hover {
+  background-color: #b07b00; /* Change color on hover */
+
 }
 
 /*////////// Form  ////////////*/
@@ -38,11 +44,19 @@ transition: background-color .17s ease,color .17s ease;
     width: 100%;
   }
 
-  /* GalleryPage */
+  /* //////GalleryPage ///////*/
   .projectGalleryHeader {
 
     background-color:#cf9b25;
     color: azure;
     width: 100% 
   }
-  
+
+
+
+/* //////Image styling for porfolio  /////*/
+  img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: auto;   /* Maintain the aspect ratio */
+    border: 1px solid black;
+}

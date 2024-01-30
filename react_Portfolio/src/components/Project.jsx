@@ -4,12 +4,13 @@ import { Link, Route, Routes } from 'react-router-dom';
 
 function Project(props) {
     // Body
-    return <div>
-        <h2>Project Title: {props.title}</h2>
-        <p>Project Description: {props.description}</p>
-        <Link to={`/projects-gallery/${props.id}`} role="button" className="btn btn-link">
+    return <div className="pb-5">
+        <h2>{props.title}</h2>
+        <p> {props.description}</p>
+        <Link to={`/projects-gallery/${props.id}`} role="button" className="btn-link button-style">
                 More Detail
             </Link>
+            <hr class="solid"></hr>
     </div>
 }
 

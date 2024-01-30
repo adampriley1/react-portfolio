@@ -1,3 +1,9 @@
+
+:root {
+  --bg-main: #cf9b25;
+ 
+
+}
 /* button */
 .button-style {
 display: inline-flex;
@@ -8,13 +14,21 @@ padding: 2px 16px;
 height: 40px;
 border: none;
 color: #fff;
-background-color: #cf9b25;
+background-color: var(--bg-main);
 transition: background-color .17s ease,color .17s ease;
 }
 
 .button-style:hover {
-  background-color: #b07b00; /* Change color on hover */
+  background-color: #b07b00; 
 
+}
+
+.text-icon {
+  color:var(--bg-main);
+}
+
+.text-icon:hover {
+  color: #6d4c00;
 }
 
 /*////////// Form  ////////////*/
@@ -23,7 +37,7 @@ transition: background-color .17s ease,color .17s ease;
    
     width: 500px;
     margin: 50px auto 0;
-    background-color: #fcfcfc;
+    background-color: var(--bg-main);
     padding: 20px 20px 50px 40px;
     box-shadow: 1px 4px 10px 1px #aaa;
    
@@ -47,7 +61,7 @@ transition: background-color .17s ease,color .17s ease;
   /* //////GalleryPage ///////*/
   .projectGalleryHeader {
 
-    background-color:#cf9b25;
+    background-color:var(--bg-main);
     color: azure;
     width: 100% 
   }

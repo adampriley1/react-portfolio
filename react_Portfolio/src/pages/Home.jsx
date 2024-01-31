@@ -13,7 +13,7 @@ function Home() {
             <div className="row">
                 <p className="lead mt-4 col-md-5 col-lg-5 col-sm-8">
                     I'm Adam Riley. A Junior Front-end Software
-                    Developer. This site showcases some of my projects and skills. Inclduding html / css/ javascipt/ react 
+                    Developer. This site showcases some of my projects and skills. Including html / css/ javascipt/ react / bootstrap.
                 </p>
                 <hr className="my-4" />
             </div>

@@ -1,4 +1,4 @@
-import Headshot from "../assets/img/Adam-riley_headshot.png";
+import Headshot from "/assets/img/Adam-riley_headshot.png";
 
 
 function Home() {

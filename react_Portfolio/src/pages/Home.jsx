@@ -1,5 +1,6 @@
 import Headshot from "../assets/img/Adam-riley_headshot.png";
 
+
 function Home() {
     // Body
     return <div>
@@ -60,7 +61,6 @@ function Home() {
     </div>
 
 }
-
 
        
 

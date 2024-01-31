@@ -1,4 +1,4 @@
-import Headshot from "/assets/img/Adam-riley_headshot.png";
+import Headshot from '/assets/img/Adam-riley_headshot.png';
 
 
 function Home() {
@@ -65,5 +65,3 @@ function Home() {
        
 
 export default Home;
-
-// className='img-fluid rounded-circle mb-3'
